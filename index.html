@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>EXAMPLE</title>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">
+          <img
+            src="https://static.djangoproject.com/img/logo-django.42234b631760.svg"
+            alt="Django"
+          />
+        </h1>
+        <nav class="nav">
+          <ul class="list">
+            <li class="list-item"><a href="#">Overview</a></li>
+            <li class="list-item"><a href="#">Download</a></li>
+            <li class="list-item"><a href="#">Documentation</a></li>
+            <li class="list-item"><a href="#">News</a></li>
+            <li class="list-item"><a href="#">Community</a></li>
+            <li class="list-item"><a href="#">Code</a></li>
+            <li class="list-item"><a href="#">About</a></li>
+            <li class="list-item"><a href="#">TEST</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="hero-section">
+        <div class="container">
+          <p class="intro-desc">
+            Django makes it easier to build better Web<br />
+            apps more quickly and with less code.
+          </p>
+          <a href="#" class="cta hero-cta">
+            Get started with Django
+          </a>
+        </div>
+      </div>
+      <div class="container-float">
+        <div class="main-content">
+          <h2 class="main-title">Stay in the loop</h2>
+          <p class="main-desc">
+            Subscribe to one of our mailing lists to stay up to date with
+            everything in the Django commuity.
+          </p>
+          <div class="mailing-layout">
+            <div class="mailing">
+              <h3 class="mailing-title">
+                <a href="#">Using Django</a>
+              </h3>
+              <p class="mailing-desc">
+                Get help with Django and fallow announcements.
+              </p>
+              <form action="#" class="mailing-form">
+                <label for="input-following" class="readable-hidden"
+                  >send e-mail for following news</label
+                >
+                <input
+                  type="email"
+                  placeholder="Enter email"
+                  id="input-following"
+                  name="input-following"
+                />
+                <button type="submit" class="mailing-form-btn">Submit</button>
+              </form>
+              <p class="mailing-desc">
+                You can also subscribe by sending an email to
+                <a href="#">django-users+subscribe@googlegroups.com</a>
+                and following the instructions that will be sent to you.
+              </p>
+            </div>
+            <div class="mailing">
+              <h3 class="mailing-title">
+                <a href="#">Contributing to Django</a>
+              </h3>
+              <p class="mailing-desc">
+                Contribute to the development of Django it self.
+              </p>
+              <form action="#" class="mailing-form">
+                <label for="email-contribute" class="readable-hidden"
+                  >send e-mail for contribution</label
+                >
+                <input
+                  type="email"
+                  placeholder="Enter email"
+                  id="email-contribute"
+                  name="email-contribute"
+                />
+                <button type="submit" class="mailing-form-btn">Submit</button>
+              </form>
+              <p class="mailing-desc">
+                Before asking a question about how to contribute.
+                <a href="#">Contributing to Django</a>
+                . Many frequently asked questions are answered there.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="side-content">
+          <div class="container-side-cta">
+            <a href="#" class="cta side-cta"
+              >Download <em>lastest release: 2.1.7</em></a
+            >
+            <a href="#" class="more">DJANGO DOCUMENTATION</a>
+          </div>
+          <div class="infos latest-news">
+            <h2 class="infos-title">
+              Latest news
+            </h2>
+            <article class="news-article">
+              <h4 class="news-title">
+                <a href="#">Django bugfix releases: 2.17, 2.0.12 and 1.11.20</a>
+              </h4>
+              <p class="news-desc">
+                Today the Django project issued bugfix releases for the 2.1, 2.0
+                and 1.11 release series.
+              </p>
+              <p class="news-meta">
+                Posted by <span>Carlton Gibson</span> on
+                <time datetime="2019-02-11">2월 11, 2019</time>
+              </p>
+            </article>
+            <a href="#" class="more">More news</a>
+          </div>
+          <div class="get-involved infos">
+            <h3 class="infos-title">
+              Get involved
+            </h3>
+            <dl class="list-communities">
+              <dt class="community-title">
+                <a href="#">#django IRC channel</a>
+              </dt>
+              <dd class="community-desc">Chat with other Django users</dd>
+              <dt class="community-title"><a href="#">Ticket system</a></dt>
+              <dd class="community-desc">
+                Report bugs and make feature requests
+              </dd>
+            </dl>
+            <a href="#" class="more">INSIDE THE DJANGO COMMUNITY</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="content-info">
+      <div class="links">
+        <div class="container">
+          <div class="learn-more link-box">
+            <dl class="link-list">
+              <dt class="link-title">Learn More</dt>
+              <dd class="link-desc"><a href="#">About Django</a></dd>
+              <dd class="link-desc">
+                <a href="#">Getting Started with Django</a>
+              </dd>
+              <dd class="link-desc"><a href="#">Team Organization</a></dd>
+              <dd class="link-desc">
+                <a href="#">Django Software Foundation</a>
+              </dd>
+              <dd class="link-desc"><a href="#">Code of Conduct</a></dd>
+              <dd class="link-desc"><a href="#">Diversity Statement</a></dd>
+            </dl>
+          </div>
+          <div class="get-involved link-box">
+            <dl class="link-list">
+              <dt class="link-title">Get Involved</dt>
+              <dd class="link-desc"><a href="#">Join a Group</a></dd>
+              <dd class="link-desc"><a href="#">Contribute to Django</a></dd>
+              <dd class="link-desc"><a href="#">Submit a Bug</a></dd>
+              <dd class="link-desc"><a href="#">Report a Security Issue</a></dd>
+            </dl>
+          </div>
+          <div class="follow-us link-box">
+            <dl class="link-list">
+              <dt class="link-title">Follow Us</dt>
+              <dd class="link-desc"><a href="#">GitHub</a></dd>
+              <dd class="link-desc"><a href="#">Twitter</a></dd>
+              <dd class="link-desc"><a href="#">News RSS</a></dd>
+              <dd class="link-desc">
+                <a href="#">Django Users Mailing List</a>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="footer-logo">
+            <img
+              src="https://static.djangoproject.com/img/logo-django.42234b631760.svg"
+              alt="Django"
+            />
+          </div>
+          <div class="hosting-by">
+            <dl class="footer-list">
+              <dt class="footer-title">
+                Hosting by
+              </dt>
+              <dd class="footer-desc">
+                rackspace.
+              </dd>
+            </dl>
+          </div>
+          <div class="disign-by">
+            <dl class="footer-list">
+              <dt class="footer-title">
+                Disign by
+              </dt>
+              <dd class="footer-desc">
+                threespot. & anarevv
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            © 2005-2019 Django Software Foundation and individual contributors.
+            Django is a registered trademark of the Django Software Foundation.
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
